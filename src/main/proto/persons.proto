@@ -1,0 +1,5 @@
+import "person.proto";
+
+message Persons {
+  repeated Person person = 1;
+}
