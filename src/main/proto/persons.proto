@@ -1,3 +1,5 @@
+package com.mthaler.protobufstreaming;
+
 import "person.proto";
 
 message Persons {
