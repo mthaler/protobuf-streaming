@@ -14,10 +14,6 @@ repositories {
     maven { url "https://plugins.gradle.org/m2/" }
 }
 
-sourceSets {
-    main.java.srcDirs += 'src/generated/java'
-}
-
 test {
     useJUnitPlatform()
 }
@@ -40,7 +36,7 @@ protobuf {
         // Download from repositories
         artifact = 'com.google.protobuf:protoc:3.13.0'
     }
-    generatedFilesBaseDir = "$projectDir/src/generated/java"
+    generatedFilesBaseDir = "$projectDir/src/main/java"
 }
 
 clean {
