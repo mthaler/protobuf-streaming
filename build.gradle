@@ -38,7 +38,3 @@ protobuf {
     }
     generatedFilesBaseDir = "$projectDir/src"
 }
-
-clean {
-    delete protobuf.generatedFilesBaseDir
-}
