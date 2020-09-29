@@ -36,7 +36,7 @@ protobuf {
         // Download from repositories
         artifact = 'com.google.protobuf:protoc:3.13.0'
     }
-    generatedFilesBaseDir = "$projectDir/src/main/java"
+    generatedFilesBaseDir = "$projectDir/src"
 }
 
 clean {
